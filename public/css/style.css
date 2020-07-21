@@ -1,0 +1,88 @@
+/* <!-- 
+    - Code by. Aris Iskianto
+    - Berlatih CSS hari 2
+    - Course @Sanbercode
+    - Senin 21-07-2020
+ --> */
+
+body {
+    background-image: url("/public/img/pattern.jpg");
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 99%;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.navigasi {
+    float: right;
+    padding-right: 40px;
+}
+
+
+/* .navigasi ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(72, 72, 236);
+    z-index: 1;
+    list-style-type: none;
+    font-style: bold;
+} */
+
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(97, 39, 233);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: cornsilk;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.konten h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+#article-list p {
+    text-indent: 50px;
+    letter-spacing: normal;
+    font-size: 14px;
+    word-spacing: 10px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.copyright {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    font-size: 14px;
+}
