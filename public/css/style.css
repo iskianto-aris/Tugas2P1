@@ -55,6 +55,10 @@ li a {
     text-decoration: none;
 }
 
+#article-list a {
+    text-decoration: none;
+}
+
 .container {
     width: 800px;
     margin: auto;
